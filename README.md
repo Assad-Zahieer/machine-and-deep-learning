@@ -8,14 +8,14 @@
 * **Reinforcement Learning** - learn ideal behaviour within an environment
     * e.g. Try to get the highest score in a maze
 ## Machine vs Deep Learning
-* Machine learning - A subset of artificial intelligence involved with the creation of algorithms which can modify itself without human intervention to produce desired output- by feeding itself through structured data.
-* Deep learning - A subset of machine learning where algorithms are created and function similar to those in machine learning, but there are numerous layers of these algorithms- each providing a different interpretation to the data it feeds on. Such a network of algorithms are called artificial neural networks
+* Machine learning - A subset of artificial intelligence involved with the creation of algorithms which can modify itself without human intervention to produce desired output- by **feeding itself through structured data**.
+* Deep learning - A subset of machine learning where algorithms are created and function similar to those in machine learning, but there are **numerous layers of these algorithms**- each providing a **different interpretation to the data** it feeds on. Such a network of algorithms are called artificial neural networks
 * Example: picture of cats and dogs want to identify which is which
 * Machine learning solution - label images (structured data) to define specific features of cats and dogs
       * System can use algorythm to analyse and learn these patterns ad can now classify other images
 * Deep learning solution - The artificial neural networks using deep learning send the input (the data of images) through different layers of the network, with each network hierarchically defining specific features of images.
       * System able to classify both images based in identifiers (specific features)
-**Reference for definitions and example: https://hackernoon.com/deep-learning-vs-machine-learning-a-simple-explanation-47405b3eef08**
+* **Reference for definitions and example: https://hackernoon.com/deep-learning-vs-machine-learning-a-simple-explanation-47405b3eef08**
 ## Applications
 * Neural nets - for object recognition
 * Deep speech - speech recognition
