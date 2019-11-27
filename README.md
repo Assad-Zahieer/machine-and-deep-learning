@@ -17,20 +17,20 @@
     * Navigate to directory with data (e.g. excel spreadsheet) and environment.yml (dependencies such as scikit-learn, matplotlib etc.)
     * **conda env create** - creates environmet from environment.yml
     * **conda activate <env-name>** - specified in yaml
-* **jupyter notebook** - launches environment in browser
+    * **jupyter notebook** - launches environment in browser
 ## Modeling Data
 1. Import relevant classes from keras
     * neural-network library runs on top of TensorFlow (numerical computation library)
-    * e.g. from keras.models import sequential
+    * **from keras.models import sequential**
 2. Define the model
-    * model = Sequential()
+    * **model = Sequential()**
 3. Add layer
-    * model.add(Dense(1, input_shape = (1, )))
+    * **model.add(Dense(1, input_shape = (1, )))**
     * first number = n.o. output values
     * second number = n.o. features (find by X.shape -> return (XXXX, 1) therefore second number is 1
     * modal.Summary() to review
 4. Compile model - keras constructs model using backend (e.g. tensorflow)
-    * model.compile(Adam(lr = 0.8), 'mean_squared_error')
+    * **model.compile(Adam(lr = 0.8), 'mean_squared_error')**
     * Adam = optimiser 
     * optimisers used to produce better and faster results by updating Weight and Bias values
     * https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
@@ -39,7 +39,7 @@
     * cost function calculate loss which represents difference between estimated and true values
 5. Fit model - define n.o. epochs
     * epoch = entire processing by learning model of entire train set
-    * model.fit(X, y, epochs = 20)
+    * **model.fit(X, y, epochs = 20)**
     * As fitting procedure runs loss decreases and accuracy increases
 6. Use model
     * To plot contour (onto grid created using linespace)
