@@ -19,3 +19,12 @@
     * **from PIL import Image**
     * **img = Image.open('xxxxx')**
 * Use *Convolutional Neural Networks*
+    * Deep learning algorythm takes images as input assign importance to specific features (identifiers) of the image and use these to differentiate.
+### Sound
+* Key value stored in associative array
+* Use scipy.io to import wavfile class
+    * **from scipy.io import wavfile**
+* Return sample rate and data from a WAV file
+    * **rate, snd = wavfile.read(filename = 'xxxxx')**
+    * from IPython.display import Audio
+    * Audio(data=snd, rate=rate)
