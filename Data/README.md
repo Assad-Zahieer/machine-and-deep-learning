@@ -20,7 +20,7 @@
     * **img = Image.open('xxxxx')**
 * Use *Convolutional Neural Networks*
     * Deep learning algorythm takes images as input assign importance to specific features (identifiers) of the image and use these to differentiate.
-### Sound
+#### Sound
 * Key value stored in associative array
 * Use scipy.io to import wavfile class
     * **from scipy.io import wavfile**
