@@ -11,7 +11,7 @@
     * Descrete - categorical data e.g. eye colour
     * Continuous - measured e.g. height, speed etc.
 ### 2. Unstructed Data
-* Images, sound etc. can be represented in tables vua **feature engineering**
+* Images, sound etc. can be represented in tables via **feature engineering**
 #### Images
 * Table of pixels
     * Each pixel has a RGB value
